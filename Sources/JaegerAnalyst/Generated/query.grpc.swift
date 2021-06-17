@@ -20,15 +20,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-import Foundation
 import GRPC
 import NIO
-import NIOHTTP1
 import SwiftProtobuf
 
 
-/// Usage: instantiate Jaeger_ApiV2_QueryServiceClient, then call methods of this protocol to make API calls.
+/// Usage: instantiate `Jaeger_ApiV2_QueryServiceClient`, then call methods of this protocol to make API calls.
 internal protocol Jaeger_ApiV2_QueryServiceClientProtocol: GRPCClient {
+  var serviceName: String { get }
+  var interceptors: Jaeger_ApiV2_QueryServiceClientInterceptorFactoryProtocol? { get }
+
   func getTrace(
     _ request: Jaeger_ApiV2_GetTraceRequest,
     callOptions: CallOptions?,
@@ -60,10 +61,12 @@ internal protocol Jaeger_ApiV2_QueryServiceClientProtocol: GRPCClient {
     _ request: Jaeger_ApiV2_GetDependenciesRequest,
     callOptions: CallOptions?
   ) -> UnaryCall<Jaeger_ApiV2_GetDependenciesRequest, Jaeger_ApiV2_GetDependenciesResponse>
-
 }
 
 extension Jaeger_ApiV2_QueryServiceClientProtocol {
+  internal var serviceName: String {
+    return "jaeger.api_v2.QueryService"
+  }
 
   /// Server streaming call to GetTrace
   ///
@@ -81,6 +84,7 @@ extension Jaeger_ApiV2_QueryServiceClientProtocol {
       path: "/jaeger.api_v2.QueryService/GetTrace",
       request: request,
       callOptions: callOptions ?? self.defaultCallOptions,
+      interceptors: self.interceptors?.makeGetTraceInterceptors() ?? [],
       handler: handler
     )
   }
@@ -98,7 +102,8 @@ extension Jaeger_ApiV2_QueryServiceClientProtocol {
     return self.makeUnaryCall(
       path: "/jaeger.api_v2.QueryService/ArchiveTrace",
       request: request,
-      callOptions: callOptions ?? self.defaultCallOptions
+      callOptions: callOptions ?? self.defaultCallOptions,
+      interceptors: self.interceptors?.makeArchiveTraceInterceptors() ?? []
     )
   }
 
@@ -118,6 +123,7 @@ extension Jaeger_ApiV2_QueryServiceClientProtocol {
       path: "/jaeger.api_v2.QueryService/FindTraces",
       request: request,
       callOptions: callOptions ?? self.defaultCallOptions,
+      interceptors: self.interceptors?.makeFindTracesInterceptors() ?? [],
       handler: handler
     )
   }
@@ -135,7 +141,8 @@ extension Jaeger_ApiV2_QueryServiceClientProtocol {
     return self.makeUnaryCall(
       path: "/jaeger.api_v2.QueryService/GetServices",
       request: request,
-      callOptions: callOptions ?? self.defaultCallOptions
+      callOptions: callOptions ?? self.defaultCallOptions,
+      interceptors: self.interceptors?.makeGetServicesInterceptors() ?? []
     )
   }
 
@@ -152,7 +159,8 @@ extension Jaeger_ApiV2_QueryServiceClientProtocol {
     return self.makeUnaryCall(
       path: "/jaeger.api_v2.QueryService/GetOperations",
       request: request,
-      callOptions: callOptions ?? self.defaultCallOptions
+      callOptions: callOptions ?? self.defaultCallOptions,
+      interceptors: self.interceptors?.makeGetOperationsInterceptors() ?? []
     )
   }
 
@@ -169,102 +177,165 @@ extension Jaeger_ApiV2_QueryServiceClientProtocol {
     return self.makeUnaryCall(
       path: "/jaeger.api_v2.QueryService/GetDependencies",
       request: request,
-      callOptions: callOptions ?? self.defaultCallOptions
+      callOptions: callOptions ?? self.defaultCallOptions,
+      interceptors: self.interceptors?.makeGetDependenciesInterceptors() ?? []
     )
   }
+}
+
+internal protocol Jaeger_ApiV2_QueryServiceClientInterceptorFactoryProtocol {
+
+  /// - Returns: Interceptors to use when invoking 'getTrace'.
+  func makeGetTraceInterceptors() -> [ClientInterceptor<Jaeger_ApiV2_GetTraceRequest, Jaeger_ApiV2_SpansResponseChunk>]
+
+  /// - Returns: Interceptors to use when invoking 'archiveTrace'.
+  func makeArchiveTraceInterceptors() -> [ClientInterceptor<Jaeger_ApiV2_ArchiveTraceRequest, Jaeger_ApiV2_ArchiveTraceResponse>]
+
+  /// - Returns: Interceptors to use when invoking 'findTraces'.
+  func makeFindTracesInterceptors() -> [ClientInterceptor<Jaeger_ApiV2_FindTracesRequest, Jaeger_ApiV2_SpansResponseChunk>]
+
+  /// - Returns: Interceptors to use when invoking 'getServices'.
+  func makeGetServicesInterceptors() -> [ClientInterceptor<Jaeger_ApiV2_GetServicesRequest, Jaeger_ApiV2_GetServicesResponse>]
+
+  /// - Returns: Interceptors to use when invoking 'getOperations'.
+  func makeGetOperationsInterceptors() -> [ClientInterceptor<Jaeger_ApiV2_GetOperationsRequest, Jaeger_ApiV2_GetOperationsResponse>]
+
+  /// - Returns: Interceptors to use when invoking 'getDependencies'.
+  func makeGetDependenciesInterceptors() -> [ClientInterceptor<Jaeger_ApiV2_GetDependenciesRequest, Jaeger_ApiV2_GetDependenciesResponse>]
 }
 
 internal final class Jaeger_ApiV2_QueryServiceClient: Jaeger_ApiV2_QueryServiceClientProtocol {
   internal let channel: GRPCChannel
   internal var defaultCallOptions: CallOptions
+  internal var interceptors: Jaeger_ApiV2_QueryServiceClientInterceptorFactoryProtocol?
 
   /// Creates a client for the jaeger.api_v2.QueryService service.
   ///
   /// - Parameters:
   ///   - channel: `GRPCChannel` to the service host.
   ///   - defaultCallOptions: Options to use for each service call if the user doesn't provide them.
-  internal init(channel: GRPCChannel, defaultCallOptions: CallOptions = CallOptions()) {
+  ///   - interceptors: A factory providing interceptors for each RPC.
+  internal init(
+    channel: GRPCChannel,
+    defaultCallOptions: CallOptions = CallOptions(),
+    interceptors: Jaeger_ApiV2_QueryServiceClientInterceptorFactoryProtocol? = nil
+  ) {
     self.channel = channel
     self.defaultCallOptions = defaultCallOptions
+    self.interceptors = interceptors
   }
 }
 
 /// To build a server, implement a class that conforms to this protocol.
 internal protocol Jaeger_ApiV2_QueryServiceProvider: CallHandlerProvider {
+  var interceptors: Jaeger_ApiV2_QueryServiceServerInterceptorFactoryProtocol? { get }
+
   func getTrace(request: Jaeger_ApiV2_GetTraceRequest, context: StreamingResponseCallContext<Jaeger_ApiV2_SpansResponseChunk>) -> EventLoopFuture<GRPCStatus>
+
   func archiveTrace(request: Jaeger_ApiV2_ArchiveTraceRequest, context: StatusOnlyCallContext) -> EventLoopFuture<Jaeger_ApiV2_ArchiveTraceResponse>
+
   func findTraces(request: Jaeger_ApiV2_FindTracesRequest, context: StreamingResponseCallContext<Jaeger_ApiV2_SpansResponseChunk>) -> EventLoopFuture<GRPCStatus>
+
   func getServices(request: Jaeger_ApiV2_GetServicesRequest, context: StatusOnlyCallContext) -> EventLoopFuture<Jaeger_ApiV2_GetServicesResponse>
+
   func getOperations(request: Jaeger_ApiV2_GetOperationsRequest, context: StatusOnlyCallContext) -> EventLoopFuture<Jaeger_ApiV2_GetOperationsResponse>
+
   func getDependencies(request: Jaeger_ApiV2_GetDependenciesRequest, context: StatusOnlyCallContext) -> EventLoopFuture<Jaeger_ApiV2_GetDependenciesResponse>
 }
 
 extension Jaeger_ApiV2_QueryServiceProvider {
-  internal var serviceName: String { return "jaeger.api_v2.QueryService" }
+  internal var serviceName: Substring { return "jaeger.api_v2.QueryService" }
 
   /// Determines, calls and returns the appropriate request handler, depending on the request's method.
   /// Returns nil for methods not handled by this service.
-  internal func handleMethod(_ methodName: String, callHandlerContext: CallHandlerContext) -> GRPCCallHandler? {
-    switch methodName {
+  internal func handle(
+    method name: Substring,
+    context: CallHandlerContext
+  ) -> GRPCServerHandlerProtocol? {
+    switch name {
     case "GetTrace":
-      return ServerStreamingCallHandler(callHandlerContext: callHandlerContext) { context in
-        return { request in
-          self.getTrace(request: request, context: context)
-        }
-      }
+      return ServerStreamingServerHandler(
+        context: context,
+        requestDeserializer: ProtobufDeserializer<Jaeger_ApiV2_GetTraceRequest>(),
+        responseSerializer: ProtobufSerializer<Jaeger_ApiV2_SpansResponseChunk>(),
+        interceptors: self.interceptors?.makeGetTraceInterceptors() ?? [],
+        userFunction: self.getTrace(request:context:)
+      )
 
     case "ArchiveTrace":
-      return UnaryCallHandler(callHandlerContext: callHandlerContext) { context in
-        return { request in
-          self.archiveTrace(request: request, context: context)
-        }
-      }
+      return UnaryServerHandler(
+        context: context,
+        requestDeserializer: ProtobufDeserializer<Jaeger_ApiV2_ArchiveTraceRequest>(),
+        responseSerializer: ProtobufSerializer<Jaeger_ApiV2_ArchiveTraceResponse>(),
+        interceptors: self.interceptors?.makeArchiveTraceInterceptors() ?? [],
+        userFunction: self.archiveTrace(request:context:)
+      )
 
     case "FindTraces":
-      return ServerStreamingCallHandler(callHandlerContext: callHandlerContext) { context in
-        return { request in
-          self.findTraces(request: request, context: context)
-        }
-      }
+      return ServerStreamingServerHandler(
+        context: context,
+        requestDeserializer: ProtobufDeserializer<Jaeger_ApiV2_FindTracesRequest>(),
+        responseSerializer: ProtobufSerializer<Jaeger_ApiV2_SpansResponseChunk>(),
+        interceptors: self.interceptors?.makeFindTracesInterceptors() ?? [],
+        userFunction: self.findTraces(request:context:)
+      )
 
     case "GetServices":
-      return UnaryCallHandler(callHandlerContext: callHandlerContext) { context in
-        return { request in
-          self.getServices(request: request, context: context)
-        }
-      }
+      return UnaryServerHandler(
+        context: context,
+        requestDeserializer: ProtobufDeserializer<Jaeger_ApiV2_GetServicesRequest>(),
+        responseSerializer: ProtobufSerializer<Jaeger_ApiV2_GetServicesResponse>(),
+        interceptors: self.interceptors?.makeGetServicesInterceptors() ?? [],
+        userFunction: self.getServices(request:context:)
+      )
 
     case "GetOperations":
-      return UnaryCallHandler(callHandlerContext: callHandlerContext) { context in
-        return { request in
-          self.getOperations(request: request, context: context)
-        }
-      }
+      return UnaryServerHandler(
+        context: context,
+        requestDeserializer: ProtobufDeserializer<Jaeger_ApiV2_GetOperationsRequest>(),
+        responseSerializer: ProtobufSerializer<Jaeger_ApiV2_GetOperationsResponse>(),
+        interceptors: self.interceptors?.makeGetOperationsInterceptors() ?? [],
+        userFunction: self.getOperations(request:context:)
+      )
 
     case "GetDependencies":
-      return UnaryCallHandler(callHandlerContext: callHandlerContext) { context in
-        return { request in
-          self.getDependencies(request: request, context: context)
-        }
-      }
+      return UnaryServerHandler(
+        context: context,
+        requestDeserializer: ProtobufDeserializer<Jaeger_ApiV2_GetDependenciesRequest>(),
+        responseSerializer: ProtobufSerializer<Jaeger_ApiV2_GetDependenciesResponse>(),
+        interceptors: self.interceptors?.makeGetDependenciesInterceptors() ?? [],
+        userFunction: self.getDependencies(request:context:)
+      )
 
-    default: return nil
+    default:
+      return nil
     }
   }
 }
 
+internal protocol Jaeger_ApiV2_QueryServiceServerInterceptorFactoryProtocol {
 
-// Provides conformance to `GRPCPayload`
-extension Jaeger_ApiV2_GetTraceRequest: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_SpansResponseChunk: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_ArchiveTraceRequest: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_ArchiveTraceResponse: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_TraceQueryParameters: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_FindTracesRequest: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_GetServicesRequest: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_GetServicesResponse: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_GetOperationsRequest: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_Operation: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_GetOperationsResponse: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_GetDependenciesRequest: GRPCProtobufPayload {}
-extension Jaeger_ApiV2_GetDependenciesResponse: GRPCProtobufPayload {}
+  /// - Returns: Interceptors to use when handling 'getTrace'.
+  ///   Defaults to calling `self.makeInterceptors()`.
+  func makeGetTraceInterceptors() -> [ServerInterceptor<Jaeger_ApiV2_GetTraceRequest, Jaeger_ApiV2_SpansResponseChunk>]
+
+  /// - Returns: Interceptors to use when handling 'archiveTrace'.
+  ///   Defaults to calling `self.makeInterceptors()`.
+  func makeArchiveTraceInterceptors() -> [ServerInterceptor<Jaeger_ApiV2_ArchiveTraceRequest, Jaeger_ApiV2_ArchiveTraceResponse>]
+
+  /// - Returns: Interceptors to use when handling 'findTraces'.
+  ///   Defaults to calling `self.makeInterceptors()`.
+  func makeFindTracesInterceptors() -> [ServerInterceptor<Jaeger_ApiV2_FindTracesRequest, Jaeger_ApiV2_SpansResponseChunk>]
+
+  /// - Returns: Interceptors to use when handling 'getServices'.
+  ///   Defaults to calling `self.makeInterceptors()`.
+  func makeGetServicesInterceptors() -> [ServerInterceptor<Jaeger_ApiV2_GetServicesRequest, Jaeger_ApiV2_GetServicesResponse>]
+
+  /// - Returns: Interceptors to use when handling 'getOperations'.
+  ///   Defaults to calling `self.makeInterceptors()`.
+  func makeGetOperationsInterceptors() -> [ServerInterceptor<Jaeger_ApiV2_GetOperationsRequest, Jaeger_ApiV2_GetOperationsResponse>]
+
+  /// - Returns: Interceptors to use when handling 'getDependencies'.
+  ///   Defaults to calling `self.makeInterceptors()`.
+  func makeGetDependenciesInterceptors() -> [ServerInterceptor<Jaeger_ApiV2_GetDependenciesRequest, Jaeger_ApiV2_GetDependenciesResponse>]
+}

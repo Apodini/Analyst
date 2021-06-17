@@ -301,6 +301,15 @@ struct Jaeger_ApiV2_Trace {
   init() {}
 }
 
+/// Note that both Span and Batch may contain a Process.
+/// This is different from the Thrift model which was only used
+/// for transport, because Proto model is also used by the backend
+/// as the domain model, where once a batch is received it is split
+/// into individual spans which are all processed independently,
+/// and therefore they all need a Process. As far as on-the-wire
+/// semantics, both Batch and Spans in the same message may contain
+/// their own instances of Process, with span.Process taking priority
+/// over batch.Process.
 struct Jaeger_ApiV2_Batch {
   // SwiftProtobuf.Message conformance is added in an extension below. See the
   // `Message` and `Message+*Additions` files in the SwiftProtobuf library for
