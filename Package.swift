@@ -28,7 +28,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.22.0"),
         .package(url: "https://github.com/grpc/grpc-swift.git", from: "1.1.0"),
         .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.0.0"),
-        .package(url: "https://github.com/Apodini/Presenter.git", .branch("develop"))
+        .package(url: "https://github.com/Apodini/Presenter.git", from: "0.1.0")
     ],
     targets: [
         .target(
