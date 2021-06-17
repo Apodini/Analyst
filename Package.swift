@@ -40,14 +40,14 @@ let package = Package(
         .target(
             name: "JaegerAnalyst",
             dependencies: [
-                "Analyst",
+                .target(name: "Analyst"),
                 .product(name: "GRPC", package: "grpc-swift")
             ]
         ),
         .target(
             name: "AnalystPresenter",
             dependencies: [
-                "Analyst",
+                .target(name: "Analyst"),
                 .product(name: "MetricPresenter", package: "Presenter"),
                 .product(name: "TracePresenter", package: "Presenter"),
             ]
@@ -55,8 +55,14 @@ let package = Package(
         .target(
             name: "PrometheusAnalyst",
             dependencies: [
-                "Analyst",
+                .target(name: "Analyst"),
                 .product(name: "AsyncHTTPClient", package: "async-http-client"),
+            ]
+        ),
+        .testTarget(
+            name: "AnalystTests",
+            dependencies: [
+                .target(name: "Analyst")
             ]
         )
     ]
