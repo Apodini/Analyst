@@ -4,16 +4,59 @@ import PackageDescription
 
 
 let package = Package(
-    name: "ApodiniTemplate",
+    name: "Analyst",
+    platforms: [.macOS(.v10_15), .iOS(.v13)],
     products: [
-        .library(name: "ApodiniTemplate", targets: ["ApodiniTemplate"])
+        .library(
+            name: "Analyst",
+            targets: ["Analyst"]
+        ),
+        .library(
+            name: "JaegerAnalyst",
+            targets: ["Analyst", "JaegerAnalyst"]
+        ),
+        .library(
+            name: "AnalystPresenter",
+            targets: ["Analyst", "AnalystPresenter"]
+        ),
+        .library(
+            name: "PrometheusAnalyst",
+            targets: ["Analyst", "PrometheusAnalyst"]
+        )
+    ],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-nio.git", from: "2.22.0"),
+        .package(url: "https://github.com/grpc/grpc-swift.git", .exact("1.0.0-alpha.15")),
+        .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.0.0"),
+        .package(url: "https://github.com/Apodini/Presenter.git", .branch("develop"))
     ],
     targets: [
-        .target(name: "ApodiniTemplate"),
-        .testTarget(
-            name: "ApodiniTemplateTests",
+        .target(
+            name: "Analyst",
             dependencies: [
-                .target(name: "ApodiniTemplate")
+                .product(name: "NIO", package: "swift-nio"),
+            ]
+        ),
+        .target(
+            name: "JaegerAnalyst",
+            dependencies: [
+                "Analyst",
+                .product(name: "GRPC", package: "grpc-swift")
+            ]
+        ),
+        .target(
+            name: "AnalystPresenter",
+            dependencies: [
+                "Analyst",
+                .product(name: "MetricPresenter", package: "Presenter"),
+                .product(name: "TracePresenter", package: "Presenter"),
+            ]
+        ),
+        .target(
+            name: "PrometheusAnalyst",
+            dependencies: [
+                "Analyst",
+                .product(name: "AsyncHTTPClient", package: "async-http-client"),
             ]
         )
     ]

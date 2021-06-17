@@ -1,0 +1,10 @@
+
+typealias JaegerSpan = Jaeger_ApiV2_Span
+typealias JaegerTrace = Jaeger_ApiV2_Trace
+typealias JaegerTag = Jaeger_ApiV2_KeyValue
+typealias JaegerLog = Jaeger_ApiV2_Log
+typealias JaegerSpanReference = Jaeger_ApiV2_SpanRef
+typealias JaegerClient = Jaeger_ApiV2_QueryServiceClient
+typealias JaegerClientProtocol = Jaeger_ApiV2_QueryServiceClientProtocol
+typealias JaegerFindTracesRequest = Jaeger_ApiV2_FindTracesRequest
+typealias JaegerProcess = Jaeger_ApiV2_Process
