@@ -15,7 +15,7 @@ public struct GraphCard {
 
     // MARK: Methods
 
-    public func view(title: String, subtitle: String) -> some View {
+    public func view(title: String, subtitle: String = "") -> some View {
 
         let max = results
             .map { $0.values.values.max() ?? -.greatestFiniteMagnitude }

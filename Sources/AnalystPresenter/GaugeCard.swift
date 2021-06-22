@@ -13,7 +13,7 @@ public struct GaugeCard<Configuration: GaugeConfiguration> {
 
     // MARK: Methods
 
-    public func view(title: String, subtitle: String, value: Double) -> some View {
+    public func view(title: String, subtitle: String = "", value: Double) -> some View {
         let normalizedValue = configuration.range.normalize(value)
 
         return Gauge(
