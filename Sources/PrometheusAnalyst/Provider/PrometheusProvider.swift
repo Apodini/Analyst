@@ -1,5 +1,6 @@
-
 import AsyncHTTPClient
+import NIOFoundationCompat
+
 
 public class Prometheus: MetricProvider {
     public typealias Timer = Analyst.Timer
