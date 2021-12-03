@@ -1,0 +1,2014 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Counter.swift",
+      "line": 1,
+      "symbol": "Counter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Counter.swift",
+      "line": 1,
+      "symbol": "Counter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Counter.swift",
+      "line": 3,
+      "symbol": "Counter.information",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Counter.swift",
+      "line": 5,
+      "symbol": "Counter.init(label:dimensions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Gauge.swift",
+      "line": 1,
+      "symbol": "Gauge",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Gauge.swift",
+      "line": 1,
+      "symbol": "Gauge",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Gauge.swift",
+      "line": 2,
+      "symbol": "Gauge.information",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Gauge.swift",
+      "line": 4,
+      "symbol": "Gauge.init(label:dimensions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Metric.swift",
+      "line": 1,
+      "symbol": "Metric",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Metric.swift",
+      "line": 1,
+      "symbol": "Metric",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Metric.swift",
+      "line": 2,
+      "symbol": "Metric.information",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/MetricInformation.swift",
+      "line": 1,
+      "symbol": "MetricInformation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/MetricInformation.swift",
+      "line": 2,
+      "symbol": "MetricInformation.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/MetricInformation.swift",
+      "line": 3,
+      "symbol": "MetricInformation.dimensions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Recorder.swift",
+      "line": 1,
+      "symbol": "Recorder",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Recorder.swift",
+      "line": 2,
+      "symbol": "Recorder",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Recorder.swift",
+      "line": 3,
+      "symbol": "Recorder.information",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Recorder.swift",
+      "line": 5,
+      "symbol": "Recorder.init(label:dimensions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Timer.swift",
+      "line": 1,
+      "symbol": "Timer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Timer.swift",
+      "line": 2,
+      "symbol": "Timer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Timer.swift",
+      "line": 3,
+      "symbol": "Timer.information",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Metric/Timer.swift",
+      "line": 5,
+      "symbol": "Timer.init(label:dimensions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/CounterScalarResult.swift",
+      "line": 1,
+      "symbol": "CounterScalarResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/CounterScalarResult.swift",
+      "line": 3,
+      "symbol": "CounterScalarResult.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/CounterScalarResult.swift",
+      "line": 4,
+      "symbol": "CounterScalarResult.dimensions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/CounterScalarResult.swift",
+      "line": 5,
+      "symbol": "CounterScalarResult.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/CounterScalarResult.swift",
+      "line": 6,
+      "symbol": "CounterScalarResult.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/CounterScalarResult.swift",
+      "line": 8,
+      "symbol": "CounterScalarResult.init(label:dimensions:date:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/GaugeScalarResult.swift",
+      "line": 1,
+      "symbol": "GaugeScalarResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/GaugeScalarResult.swift",
+      "line": 3,
+      "symbol": "GaugeScalarResult.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/GaugeScalarResult.swift",
+      "line": 4,
+      "symbol": "GaugeScalarResult.dimensions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/GaugeScalarResult.swift",
+      "line": 5,
+      "symbol": "GaugeScalarResult.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/GaugeScalarResult.swift",
+      "line": 6,
+      "symbol": "GaugeScalarResult.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/GaugeScalarResult.swift",
+      "line": 8,
+      "symbol": "GaugeScalarResult.init(label:dimensions:date:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RangeResult.swift",
+      "line": 1,
+      "symbol": "RangeResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RangeResult.swift",
+      "line": 3,
+      "symbol": "RangeResult.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RangeResult.swift",
+      "line": 4,
+      "symbol": "RangeResult.dimensions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RangeResult.swift",
+      "line": 5,
+      "symbol": "RangeResult.values",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RangeResult.swift",
+      "line": 7,
+      "symbol": "RangeResult.init(label:dimensions:values:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RecorderScalarResult.swift",
+      "line": 1,
+      "symbol": "RecorderScalarResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RecorderScalarResult.swift",
+      "line": 3,
+      "symbol": "RecorderScalarResult.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RecorderScalarResult.swift",
+      "line": 4,
+      "symbol": "RecorderScalarResult.dimensions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RecorderScalarResult.swift",
+      "line": 5,
+      "symbol": "RecorderScalarResult.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RecorderScalarResult.swift",
+      "line": 6,
+      "symbol": "RecorderScalarResult.buckets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/RecorderScalarResult.swift",
+      "line": 8,
+      "symbol": "RecorderScalarResult.init(label:dimensions:date:buckets:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/TimerScalarResult.swift",
+      "line": 1,
+      "symbol": "TimerScalarResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/TimerScalarResult.swift",
+      "line": 3,
+      "symbol": "TimerScalarResult.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/TimerScalarResult.swift",
+      "line": 4,
+      "symbol": "TimerScalarResult.dimensions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/TimerScalarResult.swift",
+      "line": 5,
+      "symbol": "TimerScalarResult.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/TimerScalarResult.swift",
+      "line": 6,
+      "symbol": "TimerScalarResult.quantiles",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/TimerScalarResult.swift",
+      "line": 8,
+      "symbol": "TimerScalarResult.init(label:dimensions:date:quantiles:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/VectorResult.swift",
+      "line": 1,
+      "symbol": "VectorResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/VectorResult.swift",
+      "line": 3,
+      "symbol": "VectorResult.values",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/MetricResult/VectorResult.swift",
+      "line": 5,
+      "symbol": "VectorResult.init(values:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 1,
+      "symbol": "MetricProvider",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 3,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 4,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 5,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 6,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 8,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 9,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 10,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 11,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 13,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 14,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 15,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Provider/MetricProvider.swift",
+      "line": 16,
+      "symbol": "MetricProvider.results(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Counter+Query.swift",
+      "line": 3,
+      "symbol": "Counter.rateAverage(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Counter+Query.swift",
+      "line": 7,
+      "symbol": "Counter.rateMinimum(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Counter+Query.swift",
+      "line": 11,
+      "symbol": "Counter.rateMaximum(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Counter+Query.swift",
+      "line": 15,
+      "symbol": "Counter.rateSum(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Counter+Query.swift",
+      "line": 19,
+      "symbol": "Counter.rateCount(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Counter+Query.swift",
+      "line": 23,
+      "symbol": "Counter.rateDeviation(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Counter+Query.swift",
+      "line": 27,
+      "symbol": "Counter.rateVariance(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Gauge+Query.swift",
+      "line": 3,
+      "symbol": "Gauge.delta(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Gauge+Query.swift",
+      "line": 7,
+      "symbol": "Gauge.average()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Gauge+Query.swift",
+      "line": 11,
+      "symbol": "Gauge.min()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Gauge+Query.swift",
+      "line": 15,
+      "symbol": "Gauge.max()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Gauge+Query.swift",
+      "line": 19,
+      "symbol": "Gauge.sum()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Gauge+Query.swift",
+      "line": 23,
+      "symbol": "Gauge.count()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Gauge+Query.swift",
+      "line": 27,
+      "symbol": "Gauge.deviation()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Gauge+Query.swift",
+      "line": 31,
+      "symbol": "Gauge.variance()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 3,
+      "symbol": "Metric.query(range:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 7,
+      "symbol": "Metric.query(range:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 11,
+      "symbol": "Metric.query(vector:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 15,
+      "symbol": "Metric.query(vector:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 19,
+      "symbol": "Metric.query(scalar:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 23,
+      "symbol": "Metric.query(scalar:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 27,
+      "symbol": "Metric.query(scalar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 31,
+      "symbol": "Metric.query(scalar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 35,
+      "symbol": "Metric.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Metric+Query.swift",
+      "line": 39,
+      "symbol": "Metric.value()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 1,
+      "symbol": "RangeQuery",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 5,
+      "symbol": "RangeQuery.Kind",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 6,
+      "symbol": "RangeQuery.Kind.range(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 7,
+      "symbol": "RangeQuery.Kind.matrix(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 8,
+      "symbol": "RangeQuery.Kind.offset(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 13,
+      "symbol": "RangeQuery.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 14,
+      "symbol": "RangeQuery.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 18,
+      "symbol": "RangeQuery.init(label:kind:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 25,
+      "symbol": "RangeQuery.Kind",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 27,
+      "symbol": "RangeQuery.Kind.range(_:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 33,
+      "symbol": "RangeQuery.Kind",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Range.swift",
+      "line": 35,
+      "symbol": "RangeQuery.Kind.offset(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 1,
+      "symbol": "ScalarQuery",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 5,
+      "symbol": "ScalarQuery.Kind",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 6,
+      "symbol": "ScalarQuery.Kind.rate(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 7,
+      "symbol": "ScalarQuery.Kind.operation(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 8,
+      "symbol": "ScalarQuery.Kind.delta(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 9,
+      "symbol": "ScalarQuery.Kind.metric(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 10,
+      "symbol": "ScalarQuery.Kind.aggregation(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 11,
+      "symbol": "ScalarQuery.Kind.aggregationOverTime(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 14,
+      "symbol": "ScalarQuery.Operator",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 15,
+      "symbol": "ScalarQuery.Operator.add",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 16,
+      "symbol": "ScalarQuery.Operator.subtract",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 17,
+      "symbol": "ScalarQuery.Operator.multiply",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 18,
+      "symbol": "ScalarQuery.Operator.divide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 19,
+      "symbol": "ScalarQuery.Operator.exponentiate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 22,
+      "symbol": "ScalarQuery.AggregationOverTime",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 23,
+      "symbol": "ScalarQuery.AggregationOverTime.average",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 24,
+      "symbol": "ScalarQuery.AggregationOverTime.min",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 25,
+      "symbol": "ScalarQuery.AggregationOverTime.max",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 26,
+      "symbol": "ScalarQuery.AggregationOverTime.sum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 27,
+      "symbol": "ScalarQuery.AggregationOverTime.count",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 28,
+      "symbol": "ScalarQuery.AggregationOverTime.deviation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 29,
+      "symbol": "ScalarQuery.AggregationOverTime.variance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 30,
+      "symbol": "ScalarQuery.AggregationOverTime.quantile(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 33,
+      "symbol": "ScalarQuery.Aggregation",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 34,
+      "symbol": "ScalarQuery.Aggregation.average",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 35,
+      "symbol": "ScalarQuery.Aggregation.min",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 36,
+      "symbol": "ScalarQuery.Aggregation.max",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 37,
+      "symbol": "ScalarQuery.Aggregation.sum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 38,
+      "symbol": "ScalarQuery.Aggregation.count",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 39,
+      "symbol": "ScalarQuery.Aggregation.deviation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 40,
+      "symbol": "ScalarQuery.Aggregation.variance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 41,
+      "symbol": "ScalarQuery.Aggregation.bottom(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 42,
+      "symbol": "ScalarQuery.Aggregation.top(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 43,
+      "symbol": "ScalarQuery.Aggregation.quantile(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 46,
+      "symbol": "ScalarQuery.AggregationRule",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 47,
+      "symbol": "ScalarQuery.AggregationRule.including(keys:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 48,
+      "symbol": "ScalarQuery.AggregationRule.excluding(keys:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 53,
+      "symbol": "ScalarQuery.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 54,
+      "symbol": "ScalarQuery.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 58,
+      "symbol": "ScalarQuery.init(label:kind:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 65,
+      "symbol": "ScalarQuery",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 67,
+      "symbol": "ScalarQuery.in(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 73,
+      "symbol": "ScalarQuery.Kind",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 75,
+      "symbol": "ScalarQuery.Kind.+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 79,
+      "symbol": "ScalarQuery.Kind.-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 83,
+      "symbol": "ScalarQuery.Kind.*(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 87,
+      "symbol": "ScalarQuery.Kind./(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 91,
+      "symbol": "ScalarQuery.Kind.pow(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 96,
+      "symbol": "ScalarQuery.Kind",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 98,
+      "symbol": "ScalarQuery.Kind.average(_:rule:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 102,
+      "symbol": "ScalarQuery.Kind.min(_:rule:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 106,
+      "symbol": "ScalarQuery.Kind.max(_:rule:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 110,
+      "symbol": "ScalarQuery.Kind.sum(_:rule:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 114,
+      "symbol": "ScalarQuery.Kind.count(_:rule:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 118,
+      "symbol": "ScalarQuery.Kind.deviation(_:rule:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 122,
+      "symbol": "ScalarQuery.Kind.variance(_:rule:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 126,
+      "symbol": "ScalarQuery.Kind.averageOverTime(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 130,
+      "symbol": "ScalarQuery.Kind.minOverTime(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 134,
+      "symbol": "ScalarQuery.Kind.maxOverTime(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 138,
+      "symbol": "ScalarQuery.Kind.sumOverTime(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 142,
+      "symbol": "ScalarQuery.Kind.countOverTime(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 146,
+      "symbol": "ScalarQuery.Kind.deviationOverTime(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Scalar.swift",
+      "line": 150,
+      "symbol": "ScalarQuery.Kind.varianceOverTime(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 1,
+      "symbol": "VectorQuery",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 5,
+      "symbol": "VectorQuery.Kind",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 6,
+      "symbol": "VectorQuery.Kind.metric(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 7,
+      "symbol": "VectorQuery.Kind.offset(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 8,
+      "symbol": "VectorQuery.Kind.aggregation(_:_:step:total:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 11,
+      "symbol": "VectorQuery.Aggregation",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 12,
+      "symbol": "VectorQuery.Aggregation.average",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 13,
+      "symbol": "VectorQuery.Aggregation.min",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 14,
+      "symbol": "VectorQuery.Aggregation.max",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 15,
+      "symbol": "VectorQuery.Aggregation.sum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 16,
+      "symbol": "VectorQuery.Aggregation.count",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 17,
+      "symbol": "VectorQuery.Aggregation.quantile(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 18,
+      "symbol": "VectorQuery.Aggregation.deviation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 19,
+      "symbol": "VectorQuery.Aggregation.variance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 24,
+      "symbol": "VectorQuery.label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 25,
+      "symbol": "VectorQuery.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Query+Vector.swift",
+      "line": 29,
+      "symbol": "VectorQuery.init(label:kind:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Recorder+Query.swift",
+      "line": 4,
+      "symbol": "Recorder.quantile(_:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Timer+Query.swift",
+      "line": 4,
+      "symbol": "Timer.average(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/Query/Timer+Query.swift",
+      "line": 8,
+      "symbol": "Timer.average(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/Interval.swift",
+      "line": 2,
+      "symbol": "Interval",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/Interval.swift",
+      "line": 6,
+      "symbol": "Interval.seconds(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/Interval.swift",
+      "line": 7,
+      "symbol": "Interval.minutes(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/Interval.swift",
+      "line": 8,
+      "symbol": "Interval.hours(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/Interval.swift",
+      "line": 9,
+      "symbol": "Interval.days(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/Interval.swift",
+      "line": 10,
+      "symbol": "Interval.weeks(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/Interval.swift",
+      "line": 11,
+      "symbol": "Interval.years(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/TimeRange.swift",
+      "line": 2,
+      "symbol": "TimeRange",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/TimeRange.swift",
+      "line": 4,
+      "symbol": "TimeRange.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/TimeRange.swift",
+      "line": 5,
+      "symbol": "TimeRange.step",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/TimeRange.swift",
+      "line": 6,
+      "symbol": "TimeRange.offset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Metrics/QueryModel/TimeRange.swift",
+      "line": 8,
+      "symbol": "TimeRange.range(_:step:offset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Dependency.swift",
+      "line": 2,
+      "symbol": "Dependency",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Dependency.swift",
+      "line": 6,
+      "symbol": "Dependency.parent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Dependency.swift",
+      "line": 7,
+      "symbol": "Dependency.child",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Dependency.swift",
+      "line": 8,
+      "symbol": "Dependency.callCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Dependency.swift",
+      "line": 9,
+      "symbol": "Dependency.source",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Dependency.swift",
+      "line": 13,
+      "symbol": "Dependency.init(parent:child:callCount:source:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Log.swift",
+      "line": 2,
+      "symbol": "Log",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Log.swift",
+      "line": 6,
+      "symbol": "Log.date",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Log.swift",
+      "line": 7,
+      "symbol": "Log.tags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Log.swift",
+      "line": 11,
+      "symbol": "Log.init(date:tags:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Log.swift",
+      "line": 20,
+      "symbol": "Log",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Operation.swift",
+      "line": 2,
+      "symbol": "Operation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Operation.swift",
+      "line": 6,
+      "symbol": "Operation.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Operation.swift",
+      "line": 7,
+      "symbol": "Operation.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Operation.swift",
+      "line": 11,
+      "symbol": "Operation.init(name:kind:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Operation.swift",
+      "line": 20,
+      "symbol": "Operation",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Process.swift",
+      "line": 2,
+      "symbol": "Process",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Process.swift",
+      "line": 6,
+      "symbol": "Process.service",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Process.swift",
+      "line": 7,
+      "symbol": "Process.tags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Process.swift",
+      "line": 11,
+      "symbol": "Process.init(service:tags:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Process.swift",
+      "line": 20,
+      "symbol": "Process",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 2,
+      "symbol": "Span",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 6,
+      "symbol": "Span.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 7,
+      "symbol": "Span.context",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 8,
+      "symbol": "Span.references",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 9,
+      "symbol": "Span.startTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 10,
+      "symbol": "Span.endTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 11,
+      "symbol": "Span.tags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 12,
+      "symbol": "Span.logs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 13,
+      "symbol": "Span.process",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 14,
+      "symbol": "Span.warnings",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 18,
+      "symbol": "Span.init(name:context:references:startTime:endTime:tags:logs:process:warnings:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 43,
+      "symbol": "Span",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 45,
+      "symbol": "Span.Context",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 49,
+      "symbol": "Span.Context.traceID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 50,
+      "symbol": "Span.Context.spanID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 54,
+      "symbol": "Span.Context.init(traceID:spanID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 61,
+      "symbol": "Span.Reference",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 65,
+      "symbol": "Span.Reference.Kind",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 66,
+      "symbol": "Span.Reference.Kind.childOf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 67,
+      "symbol": "Span.Reference.Kind.followsFrom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 72,
+      "symbol": "Span.Reference.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 73,
+      "symbol": "Span.Reference.context",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 77,
+      "symbol": "Span.Reference.child(of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 81,
+      "symbol": "Span.Reference.follows(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 91,
+      "symbol": "Span",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 99,
+      "symbol": "Span.Context",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Span.swift",
+      "line": 107,
+      "symbol": "Span.Reference",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 2,
+      "symbol": "Tag",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 6,
+      "symbol": "Tag.key",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 7,
+      "symbol": "Tag.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 11,
+      "symbol": "Tag.init(key:value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 20,
+      "symbol": "Tag",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 22,
+      "symbol": "Tag.Key",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 24,
+      "symbol": "Tag.Value",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 25,
+      "symbol": "Tag.Value.string(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 26,
+      "symbol": "Tag.Value.double(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 27,
+      "symbol": "Tag.Value.boolean(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 28,
+      "symbol": "Tag.Value.integer(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 29,
+      "symbol": "Tag.Value.data(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 36,
+      "symbol": "Tag",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Tag.swift",
+      "line": 44,
+      "symbol": "Tag.Value",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Trace.swift",
+      "line": 2,
+      "symbol": "Trace",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Trace.swift",
+      "line": 6,
+      "symbol": "Trace.spans",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Trace.swift",
+      "line": 10,
+      "symbol": "Trace.init(spans:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/Trace.swift",
+      "line": 18,
+      "symbol": "Trace",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 2,
+      "symbol": "TraceQuery",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 6,
+      "symbol": "TraceQuery.service",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 7,
+      "symbol": "TraceQuery.operation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 8,
+      "symbol": "TraceQuery.tags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 9,
+      "symbol": "TraceQuery.minStartDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 10,
+      "symbol": "TraceQuery.maxStartDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 11,
+      "symbol": "TraceQuery.minDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 12,
+      "symbol": "TraceQuery.maxDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 13,
+      "symbol": "TraceQuery.maxCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Models/TraceQuery.swift",
+      "line": 17,
+      "symbol": "TraceQuery.init(service:operation:tags:minStartDate:maxStartDate:minDuration:maxDuration:maxCount:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 2,
+      "symbol": "TraceProvider",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 6,
+      "symbol": "TraceProvider.archive(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 7,
+      "symbol": "TraceProvider.trace(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 8,
+      "symbol": "TraceProvider.traces(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 12,
+      "symbol": "TraceProvider.dependencies(from:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 13,
+      "symbol": "TraceProvider.operations(service:kind:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 14,
+      "symbol": "TraceProvider.services()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 18,
+      "symbol": "TraceProvider",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 20,
+      "symbol": "TraceProvider.dependencies(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 24,
+      "symbol": "TraceProvider.dependencies(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 28,
+      "symbol": "TraceProvider.dependencies()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Analyst/Analyst/Sources/Analyst/Tracing/Provider/TraceProvider.swift",
+      "line": 32,
+      "symbol": "TraceProvider.operations(service:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/Analyst/Analyst"
+}
