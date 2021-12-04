@@ -1,11 +1,13 @@
 
+@available(macOS 12, *)
 extension JaegerProvider {
 
-    public func services() -> EventLoopFuture<[String]> {
-        client
-        .getServices(.with { _ in })
-        .response
-        .map { $0.services }
+    public func fetchServices() async throws -> [String] {
+        let response = try await client
+            .getServices(.with { _ in })
+            .response
+            .value
+        return response.services
     }
 
 }

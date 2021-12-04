@@ -1,37 +1,42 @@
 
+import Foundation
+
+@available(macOS 12, *)
 extension JaegerProvider {
 
-    public func archive(id: UUID) -> EventLoopFuture<Void> {
-        client
-        .archiveTrace(.with { $0.traceID = Data(id.uuidString.utf8) })
-        .response
-        .map { _ in }
+    public func archive(id: UUID) async throws {
+        _ = try await client
+            .archiveTrace(.with { $0.traceID = Data(id.uuidString.utf8) })
+            .response
+            .value
     }
 
-    public func trace(id: UUID) -> EventLoopFuture<Trace> {
+    public func fetchTrace(id: UUID) async throws -> Trace {
         var spans = [Span]()
 
-        return client
+        _ = try await client
             .getTrace(.with { $0.traceID = Data(id.uuidString.utf8) }) { chunk in
                 spans.append(contentsOf: chunk.spans.compactMap(self.span))
             }
             .status
-            .map { _ in
-                Trace(spans: spans)
-            }
+            .value
+
+        return Trace(spans: spans)
     }
 
-    public func traces(for query: TraceQuery) -> EventLoopFuture<[Trace]> {
+    public func fetchTraces(for query: TraceQuery) async throws -> [Trace] {
         var traces = [Trace]()
 
-        return client
+        _ = try await client
             .findTraces(findTracesRequest(for: query)) { chunk in
                 traces.append(
                     Trace(spans: chunk.spans.compactMap(self.span))
                 )
             }
             .status
-            .map { _ in traces }
+            .value
+
+        return traces
     }
 
 }

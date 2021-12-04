@@ -1,6 +1,5 @@
 
 public final class JaegerProvider: TraceProvider {
-    public typealias Process = Analyst.Process
 
     // MARK: Stored Properties
 
