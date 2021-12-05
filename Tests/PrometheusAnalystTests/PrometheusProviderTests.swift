@@ -9,6 +9,8 @@ import Foundation
 import PrometheusAnalyst
 import XCTest
 
+#if !os(Linux)
+
 @available(macOS 12, *)
 final class PrometheusProviderTests: XCTestCase {
 
@@ -100,3 +102,5 @@ final class PrometheusProviderTests: XCTestCase {
 
 }
 
+
+#endif
