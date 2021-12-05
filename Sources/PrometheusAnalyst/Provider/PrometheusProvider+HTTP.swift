@@ -207,13 +207,31 @@ internal final class HTTPPrometheusProvider: PrometheusProvider {
             throw PrometheusProviderError.couldNotEncodeQuery(components.debugDescription)
         }
 
-        let (data, response) = try await session.data(for: request)
+        let (data, response) = try await session.send(request)
         guard let httpResponse = response as? HTTPURLResponse,
               (200..<300).contains(httpResponse.statusCode) else {
             throw PrometheusProviderError.failure(response, data)
         }
 
         return data
+    }
+
+}
+
+@available(macOS 12, *)
+extension URLSession {
+
+    fileprivate func send(_ request: URLRequest) async throws -> (Data, URLResponse) {
+        let (data, response, error) = try await withCheckedThrowingContinuation { continuation in
+            self.dataTask(with: request) { continuation.resume(returning: ($0, $1, $2)) }
+                .resume()
+        }
+
+        guard let data = data, let response = response else {
+            throw error!
+        }
+
+        return (data, response)
     }
 
 }
