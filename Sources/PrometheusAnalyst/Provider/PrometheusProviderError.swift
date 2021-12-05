@@ -8,4 +8,5 @@ public enum PrometheusProviderError: Error {
     case missingResponseContent(Data)
     case wrongResponseType(Data)
     case unsupportedQueryType
+    case notAvailable
 }

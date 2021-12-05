@@ -11,7 +11,7 @@ extension MetricsSystem {
     internal static var prometheusProvider: PrometheusProvider {
         get throws {
             guard let provider = _prometheusProvider else {
-                throw NSError()
+                throw PrometheusProviderError.notAvailable
             }
             return provider
         }

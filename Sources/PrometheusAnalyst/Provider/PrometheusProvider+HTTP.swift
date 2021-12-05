@@ -1,6 +1,10 @@
 
 import Foundation
 
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
+
 @available(macOS 12, iOS 15, *)
 internal final class HTTPPrometheusProvider: PrometheusProvider {
 
