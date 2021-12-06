@@ -1,3 +1,3 @@
 
-@_exported import Analyst
+@_exported import TraceAnalyst
 @_exported import GRPC

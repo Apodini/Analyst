@@ -9,62 +9,61 @@ let package = Package(
     products: [
         .library(
             name: "Analyst",
-            targets: ["Analyst"]
+            targets: ["MetricAnalyst", "TraceAnalyst"]
         ),
         .library(
-            name: "JaegerAnalyst",
-            targets: ["Analyst", "JaegerAnalyst"]
-        ),
-        .library(
-            name: "AnalystPresenter",
-            targets: ["Analyst", "AnalystPresenter"]
+            name: "MetricAnalyst",
+            targets: ["MetricAnalyst"]
         ),
         .library(
             name: "PrometheusAnalyst",
-            targets: ["Analyst", "PrometheusAnalyst"]
-        )
+            targets: ["PrometheusAnalyst"]
+        ),
+        .library(
+            name: "TraceAnalyst",
+            targets: ["TraceAnalyst"]
+        ),
+        .library(
+            name: "JaegerAnalyst",
+            targets: ["JaegerAnalyst"]
+        ),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.22.0"),
+        .package(url: "https://github.com/apple/swift-metrics.git", "1.0.0" ..< "3.0.0"),
         .package(url: "https://github.com/grpc/grpc-swift.git", from: "1.1.0"),
-        .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.0.0"),
-        .package(url: "https://github.com/Apodini/Presenter.git", from: "0.1.0")
     ],
     targets: [
         .target(
-            name: "Analyst",
+            name: "MetricAnalyst",
             dependencies: [
-                .product(name: "NIO", package: "swift-nio"),
-            ]
-        ),
-        .target(
-            name: "JaegerAnalyst",
-            dependencies: [
-                .target(name: "Analyst"),
-                .product(name: "GRPC", package: "grpc-swift")
-            ]
-        ),
-        .target(
-            name: "AnalystPresenter",
-            dependencies: [
-                .target(name: "Analyst"),
-                .product(name: "MetricPresenter", package: "Presenter"),
-                .product(name: "TracePresenter", package: "Presenter"),
+                .product(name: "CoreMetrics", package: "swift-metrics")
             ]
         ),
         .target(
             name: "PrometheusAnalyst",
             dependencies: [
-                .target(name: "Analyst"),
-                .product(name: "AsyncHTTPClient", package: "async-http-client"),
-                .product(name: "NIOFoundationCompat", package: "swift-nio")
+                .target(name: "MetricAnalyst"),
+            ]
+        ),
+        .target(
+            name: "TraceAnalyst",
+            dependencies: []
+        ),
+        .target(
+            name: "JaegerAnalyst",
+            dependencies: [
+                .target(name: "TraceAnalyst"),
+                .product(name: "GRPC", package: "grpc-swift")
             ]
         ),
         .testTarget(
-            name: "AnalystTests",
-            dependencies: [
-                .target(name: "Analyst")
-            ]
+            name: "JaegerAnalystTests",
+            dependencies: ["JaegerAnalyst"]
+        ),
+        .testTarget(
+            name: "PrometheusAnalystTests",
+            dependencies: ["PrometheusAnalyst"],
+            resources: [.copy("prometheus")]
         )
     ]
 )

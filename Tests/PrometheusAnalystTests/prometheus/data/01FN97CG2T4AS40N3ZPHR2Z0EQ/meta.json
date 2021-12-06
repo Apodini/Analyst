@@ -1,0 +1,17 @@
+{
+	"ulid": "01FN97CG2T4AS40N3ZPHR2Z0EQ",
+	"minTime": 1637755206304,
+	"maxTime": 1637762400000,
+	"stats": {
+		"numSamples": 187680,
+		"numSeries": 391,
+		"numChunks": 1564
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01FN97CG2T4AS40N3ZPHR2Z0EQ"
+		]
+	},
+	"version": 1
+}

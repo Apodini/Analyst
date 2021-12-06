@@ -1,4 +1,6 @@
 
+import Foundation
+
 extension JaegerProvider {
 
     func span(for span: JaegerSpan) -> Span? {
@@ -64,7 +66,7 @@ extension JaegerProvider {
         }
     }
 
-    private func process(for process: JaegerProcess) -> Process {
+    private func process(for process: JaegerProcess) -> TraceAnalyst.Process {
         Process(service: process.serviceName, tags: tags(from: process.tags))
     }
 
